@@ -31,7 +31,7 @@ export default function NavBar() {
               </button>
             </>
           ) : (
-            <Link href="/login" className="btn sm" style={{ marginLeft: "8px" }} onClick={() => setMenuOpen(false)}>Login / Sign up</Link>
+            <Link href="/login" className="btn sm" style={{ marginLeft: "8px", color: "white" }} onClick={() => setMenuOpen(false)}>Login / Sign up</Link>
           )}
         </nav>
       </div>

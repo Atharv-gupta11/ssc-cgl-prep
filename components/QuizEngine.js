@@ -210,7 +210,7 @@ export default function QuizEngine({ config }) {
   const timerCls = remaining < 60 ? "timer danger" : remaining < 300 ? "timer warn" : "timer";
 
   return (
-    <div className="grid" style={{ gridTemplateColumns: "1fr 260px", gap: 18, marginTop: 22, alignItems: "start" }}>
+    <div className="layout-sidebar-reverse" style={{ marginTop: 22 }}>
       <div className="qbox">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
           <div className="tiny muted">Question {cur + 1} of {questions.length}</div>

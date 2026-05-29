@@ -18,8 +18,8 @@ export default function DailyView({ kind, title, kicker, description, index, byD
         <p className="sub">{description}</p>
       </div>
 
-      <div className="grid" style={{ gridTemplateColumns: "230px 1fr", gap: 18, marginTop: 22, alignItems: "start" }}>
-        <div className="card" style={{ position: "sticky", top: 78 }}>
+      <div className="layout-sidebar" style={{ marginTop: 22 }}>
+        <div className="card date-sidebar" style={{ position: "sticky", top: 78 }}>
           <div className="tiny muted" style={{ marginBottom: 10, fontWeight: 700 }}>SELECT DATE</div>
           <div className="list" style={{ maxHeight: 460, overflow: "auto" }}>
             {index.map((d) => (
