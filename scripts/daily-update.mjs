@@ -107,10 +107,26 @@ ${bodyHtml}
 function newsHtml(dateStr, news) {
   const items = news
     .map(
-      (n) => `<div class="card"><span class="tag">${n.source}</span><span class="tag" style="background:#0891b2">${n.category}</span>
+      (n) => {
+        let html = `<div class="card"><span class="tag">${n.source}</span><span class="tag" style="background:#0891b2">${n.category}</span>
   <h2 style="margin:8px 0 4px">${n.title}</h2>
-  <div class="muted">${n.summary}</div>
-  <div class="exam"><b>Exam point:</b> ${n.examPoint}</div></div>`
+  <div class="muted">${n.summary}</div>`;
+        if (n.background) {
+          html += `<div style="margin:8px 0;padding:8px 10px;background:#e0f2fe;border-left:4px solid #0284c7;font-size:13px;font-family:Arial,sans-serif"><b>Background:</b> ${n.background}</div>`;
+        }
+        if (n.keyTerms && n.keyTerms.length) {
+          html += `<div style="margin:8px 0;padding:8px 10px;background:#f3e8ff;border-left:4px solid #7c3aed;font-size:13px;font-family:Arial,sans-serif"><b>Key Terms:</b><ul style="margin:4px 0;padding-left:18px">`;
+          for (const kt of n.keyTerms) {
+            html += `<li><b>${kt.term}:</b> ${kt.definition}</li>`;
+          }
+          html += `</ul></div>`;
+        }
+        if (n.whyItMatters) {
+          html += `<div style="margin:8px 0;padding:8px 10px;background:#d1fae5;border-left:4px solid #059669;font-size:13px;font-family:Arial,sans-serif"><b>Why It Matters for SSC:</b> ${n.whyItMatters}</div>`;
+        }
+        html += `<div class="exam"><b>Exam point:</b> ${n.examPoint}</div></div>`;
+        return html;
+      }
     )
     .join("");
   return htmlDoc(

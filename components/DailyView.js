@@ -48,13 +48,40 @@ export default function DailyView({ kind, title, kicker, description, index, byD
             <div className="list">
               {data.map((n) => (
                 <div className="qbox" key={n.id}>
-                  <div style={{ marginBottom: 6 }}>
+                  <div style={{ marginBottom: 8 }}>
                     <span className="badge">{n.source}</span>{" "}
                     <span className="badge amber">{n.category}</span>
                   </div>
-                  <h3 style={{ margin: "4px 0 8px", fontSize: 18 }}>{n.title}</h3>
-                  <p className="sub" style={{ marginTop: 0 }}>{n.summary}</p>
-                  <div className="expl"><b>Exam point:</b> {n.examPoint}</div>
+                  <h3 style={{ margin: "4px 0 10px", fontSize: 20, lineHeight: 1.4 }}>{n.title}</h3>
+                  <p className="sub" style={{ marginTop: 0, lineHeight: 1.7 }}>{n.summary}</p>
+
+                  {n.background && (
+                    <div style={{ margin: "12px 0", padding: "14px 16px", background: "#f0f9ff", border: "1px solid #bae6fd", borderRadius: 10, fontSize: 15, lineHeight: 1.7, color: "#0c4a6e" }}>
+                      <b style={{ color: "#0369a1" }}>📋 Background:</b> {n.background}
+                    </div>
+                  )}
+
+                  {n.keyTerms && n.keyTerms.length > 0 && (
+                    <div style={{ margin: "12px 0", padding: "14px 16px", background: "#faf5ff", border: "1px solid #e9d5ff", borderRadius: 10 }}>
+                      <b style={{ color: "#7c3aed", fontSize: 14 }}>📖 Key Terms for Exam:</b>
+                      <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 8 }}>
+                        {n.keyTerms.map((kt, idx) => (
+                          <div key={idx} style={{ fontSize: 14, lineHeight: 1.6, color: "#374151" }}>
+                            <span style={{ fontWeight: 700, color: "#5b21b6" }}>{kt.term}:</span>{" "}
+                            <span>{kt.definition}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {n.whyItMatters && (
+                    <div style={{ margin: "12px 0", padding: "14px 16px", background: "#ecfdf5", border: "1px solid #a7f3d0", borderRadius: 10, fontSize: 14, lineHeight: 1.6, color: "#065f46" }}>
+                      <b style={{ color: "#047857" }}>🎯 Why It Matters for SSC:</b> {n.whyItMatters}
+                    </div>
+                  )}
+
+                  <div className="expl"><b>⚡ Exam Point:</b> {n.examPoint}</div>
                 </div>
               ))}
             </div>
