@@ -1,0 +1,19 @@
+{
+  "name": "ssc-cgl-prep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SSC CGL preparation platform - mock tests, sectional tests, topic-wise practice, daily PIB current affairs and daily vocabulary.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gen:questions": "node scripts/generate-questions.mjs",
+    "daily:update": "node scripts/daily-update.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "node scripts/generate-questions.mjs && node scripts/daily-update.mjs && next build",
+  "crons": [
+    {
+      "path": "/api/cron/daily",
+      "schedule": "45 1 * * *"
+    }
+  ]
+}

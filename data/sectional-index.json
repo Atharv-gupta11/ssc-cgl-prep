@@ -1,0 +1,402 @@
+[
+  {
+    "id": "sectional-1",
+    "title": "Reasoning Sectional Test 1",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-2",
+    "title": "Reasoning Sectional Test 2",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-3",
+    "title": "Reasoning Sectional Test 3",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-4",
+    "title": "Reasoning Sectional Test 4",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-5",
+    "title": "Reasoning Sectional Test 5",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-6",
+    "title": "Reasoning Sectional Test 6",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-7",
+    "title": "Reasoning Sectional Test 7",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-8",
+    "title": "Reasoning Sectional Test 8",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-9",
+    "title": "Reasoning Sectional Test 9",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-10",
+    "title": "Reasoning Sectional Test 10",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-11",
+    "title": "Reasoning Sectional Test 11",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-12",
+    "title": "Reasoning Sectional Test 12",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-13",
+    "title": "Reasoning Sectional Test 13",
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-14",
+    "title": "GA Sectional Test 1",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-15",
+    "title": "GA Sectional Test 2",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-16",
+    "title": "GA Sectional Test 3",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-17",
+    "title": "GA Sectional Test 4",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-18",
+    "title": "GA Sectional Test 5",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-19",
+    "title": "GA Sectional Test 6",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-20",
+    "title": "GA Sectional Test 7",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-21",
+    "title": "GA Sectional Test 8",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-22",
+    "title": "GA Sectional Test 9",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-23",
+    "title": "GA Sectional Test 10",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-24",
+    "title": "GA Sectional Test 11",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-25",
+    "title": "GA Sectional Test 12",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-26",
+    "title": "GA Sectional Test 13",
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-27",
+    "title": "Quant Sectional Test 1",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-28",
+    "title": "Quant Sectional Test 2",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-29",
+    "title": "Quant Sectional Test 3",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-30",
+    "title": "Quant Sectional Test 4",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-31",
+    "title": "Quant Sectional Test 5",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-32",
+    "title": "Quant Sectional Test 6",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-33",
+    "title": "Quant Sectional Test 7",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-34",
+    "title": "Quant Sectional Test 8",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-35",
+    "title": "Quant Sectional Test 9",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-36",
+    "title": "Quant Sectional Test 10",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-37",
+    "title": "Quant Sectional Test 11",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-38",
+    "title": "Quant Sectional Test 12",
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-39",
+    "title": "English Sectional Test 1",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-40",
+    "title": "English Sectional Test 2",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-41",
+    "title": "English Sectional Test 3",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-42",
+    "title": "English Sectional Test 4",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-43",
+    "title": "English Sectional Test 5",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-44",
+    "title": "English Sectional Test 6",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-45",
+    "title": "English Sectional Test 7",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-46",
+    "title": "English Sectional Test 8",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-47",
+    "title": "English Sectional Test 9",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-48",
+    "title": "English Sectional Test 10",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-49",
+    "title": "English Sectional Test 11",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  },
+  {
+    "id": "sectional-50",
+    "title": "English Sectional Test 12",
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "totalQuestions": 25,
+    "durationMin": 15
+  }
+]

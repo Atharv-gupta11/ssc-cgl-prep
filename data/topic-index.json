@@ -1,0 +1,306 @@
+[
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Number Series",
+    "slug": "reasoning__number-series",
+    "count": 200,
+    "uniqueQuestions": 72
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Letter Series",
+    "slug": "reasoning__letter-series",
+    "count": 200,
+    "uniqueQuestions": 44
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Coding-Decoding",
+    "slug": "reasoning__coding-decoding",
+    "count": 200,
+    "uniqueQuestions": 40
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Analogy",
+    "slug": "reasoning__analogy",
+    "count": 200,
+    "uniqueQuestions": 5
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Odd One Out",
+    "slug": "reasoning__odd-one-out",
+    "count": 200,
+    "uniqueQuestions": 96
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Blood Relations",
+    "slug": "reasoning__blood-relations",
+    "count": 200,
+    "uniqueQuestions": 2
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Direction Sense",
+    "slug": "reasoning__direction-sense",
+    "count": 200,
+    "uniqueQuestions": 49
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Syllogism",
+    "slug": "reasoning__syllogism",
+    "count": 200,
+    "uniqueQuestions": 1
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Mathematical Operations",
+    "slug": "reasoning__mathematical-operations",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "reasoning",
+    "sectionName": "General Intelligence & Reasoning",
+    "topic": "Clock and Calendar",
+    "slug": "reasoning__clock-and-calendar",
+    "count": 200,
+    "uniqueQuestions": 36
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "Indian Polity",
+    "slug": "ga__indian-polity",
+    "count": 200,
+    "uniqueQuestions": 14
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "History",
+    "slug": "ga__history",
+    "count": 200,
+    "uniqueQuestions": 13
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "Geography",
+    "slug": "ga__geography",
+    "count": 200,
+    "uniqueQuestions": 13
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "Economy",
+    "slug": "ga__economy",
+    "count": 200,
+    "uniqueQuestions": 12
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "General Science",
+    "slug": "ga__general-science",
+    "count": 200,
+    "uniqueQuestions": 14
+  },
+  {
+    "section": "ga",
+    "sectionName": "General Awareness",
+    "topic": "Static GK",
+    "slug": "ga__static-gk",
+    "count": 200,
+    "uniqueQuestions": 14
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "slug": "quant__percentage",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Profit and Loss",
+    "slug": "quant__profit-and-loss",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Simple Interest",
+    "slug": "quant__simple-interest",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "slug": "quant__compound-interest",
+    "count": 200,
+    "uniqueQuestions": 60
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Average",
+    "slug": "quant__average",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Ratio and Proportion",
+    "slug": "quant__ratio-and-proportion",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Time and Work",
+    "slug": "quant__time-and-work",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Speed Time Distance",
+    "slug": "quant__speed-time-distance",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Number System",
+    "slug": "quant__number-system",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Mensuration",
+    "slug": "quant__mensuration",
+    "count": 200,
+    "uniqueQuestions": 15
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Algebra",
+    "slug": "quant__algebra",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "quant",
+    "sectionName": "Quantitative Aptitude",
+    "topic": "Simplification",
+    "slug": "quant__simplification",
+    "count": 200,
+    "uniqueQuestions": 200
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Synonyms",
+    "slug": "english__synonyms",
+    "count": 200,
+    "uniqueQuestions": 40
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Antonyms",
+    "slug": "english__antonyms",
+    "count": 200,
+    "uniqueQuestions": 30
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Idioms and Phrases",
+    "slug": "english__idioms-and-phrases",
+    "count": 200,
+    "uniqueQuestions": 24
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "One Word Substitution",
+    "slug": "english__one-word-substitution",
+    "count": 200,
+    "uniqueQuestions": 25
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Spelling Correction",
+    "slug": "english__spelling-correction",
+    "count": 200,
+    "uniqueQuestions": 1
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Fill in the Blanks",
+    "slug": "english__fill-in-the-blanks",
+    "count": 200,
+    "uniqueQuestions": 15
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Sentence Improvement",
+    "slug": "english__sentence-improvement",
+    "count": 200,
+    "uniqueQuestions": 7
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Active Passive Voice",
+    "slug": "english__active-passive-voice",
+    "count": 200,
+    "uniqueQuestions": 6
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Error Detection",
+    "slug": "english__error-detection",
+    "count": 200,
+    "uniqueQuestions": 8
+  },
+  {
+    "section": "english",
+    "sectionName": "English Comprehension",
+    "topic": "Reading Comprehension",
+    "slug": "english__reading-comprehension",
+    "count": 200,
+    "uniqueQuestions": 3
+  }
+]

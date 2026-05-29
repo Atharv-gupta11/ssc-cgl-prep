@@ -1,0 +1,51 @@
+// Seed content for the daily Current Affairs (PIB & govt sources) and Vocabulary sections.
+// In production, scripts/daily-update.mjs fetches fresh PIB items each day. This file
+// provides high-quality seed entries so the platform is fully populated out of the box.
+
+// A rotating pool of exam-relevant vocabulary (CGL level). The daily-update script
+// picks N words per day so each day's list is unique and date-stamped.
+export const VOCAB_POOL = [
+  { word: "Ubiquitous", pos: "adjective", meaning: "Present, appearing, or found everywhere", synonyms: ["omnipresent", "pervasive", "universal"], antonyms: ["rare", "scarce"], sentence: "Smartphones have become ubiquitous in modern life." },
+  { word: "Pragmatic", pos: "adjective", meaning: "Dealing with things sensibly and realistically", synonyms: ["practical", "realistic", "sensible"], antonyms: ["idealistic", "impractical"], sentence: "She took a pragmatic approach to solving the crisis." },
+  { word: "Ephemeral", pos: "adjective", meaning: "Lasting for a very short time", synonyms: ["transient", "fleeting", "momentary"], antonyms: ["permanent", "enduring"], sentence: "Fame can be ephemeral in the entertainment industry." },
+  { word: "Meticulous", pos: "adjective", meaning: "Showing great attention to detail; very careful", synonyms: ["thorough", "careful", "scrupulous"], antonyms: ["careless", "sloppy"], sentence: "He kept meticulous records of every transaction." },
+  { word: "Resilient", pos: "adjective", meaning: "Able to recover quickly from difficulties", synonyms: ["tough", "adaptable", "hardy"], antonyms: ["fragile", "weak"], sentence: "The resilient economy bounced back after the recession." },
+  { word: "Candid", pos: "adjective", meaning: "Truthful and straightforward; frank", synonyms: ["frank", "honest", "forthright"], antonyms: ["evasive", "secretive"], sentence: "She gave a candid account of the incident." },
+  { word: "Diligent", pos: "adjective", meaning: "Having or showing care in one's work", synonyms: ["hardworking", "industrious", "assiduous"], antonyms: ["lazy", "negligent"], sentence: "A diligent student revises every day." },
+  { word: "Eloquent", pos: "adjective", meaning: "Fluent or persuasive in speaking or writing", synonyms: ["articulate", "expressive", "fluent"], antonyms: ["inarticulate", "tongue-tied"], sentence: "Her eloquent speech moved the audience." },
+  { word: "Frugal", pos: "adjective", meaning: "Sparing or economical with money or food", synonyms: ["thrifty", "economical", "prudent"], antonyms: ["wasteful", "extravagant"], sentence: "Being frugal helped him save for his studies." },
+  { word: "Inevitable", pos: "adjective", meaning: "Certain to happen; unavoidable", synonyms: ["unavoidable", "certain", "inescapable"], antonyms: ["avoidable", "uncertain"], sentence: "Change is inevitable in any growing organisation." },
+  { word: "Lucid", pos: "adjective", meaning: "Expressed clearly; easy to understand", synonyms: ["clear", "coherent", "intelligible"], antonyms: ["confusing", "vague"], sentence: "The teacher gave a lucid explanation of the topic." },
+  { word: "Benevolent", pos: "adjective", meaning: "Well meaning and kindly", synonyms: ["kind", "generous", "compassionate"], antonyms: ["cruel", "malevolent"], sentence: "The benevolent donor funded the new school." },
+  { word: "Tenacious", pos: "adjective", meaning: "Tending to keep a firm hold; persistent", synonyms: ["persistent", "determined", "dogged"], antonyms: ["weak", "yielding"], sentence: "Her tenacious effort finally paid off." },
+  { word: "Ambiguous", pos: "adjective", meaning: "Open to more than one interpretation", synonyms: ["unclear", "vague", "equivocal"], antonyms: ["clear", "definite"], sentence: "The instructions were ambiguous and confusing." },
+  { word: "Prudent", pos: "adjective", meaning: "Acting with care and thought for the future", synonyms: ["wise", "cautious", "sensible"], antonyms: ["reckless", "rash"], sentence: "It is prudent to keep an emergency fund." },
+  { word: "Versatile", pos: "adjective", meaning: "Able to adapt to many functions or activities", synonyms: ["adaptable", "all-round", "flexible"], antonyms: ["limited", "fixed"], sentence: "He is a versatile player who can bat and bowl." },
+  { word: "Scrutinize", pos: "verb", meaning: "Examine or inspect closely and thoroughly", synonyms: ["examine", "inspect", "analyse"], antonyms: ["ignore", "glance"], sentence: "Auditors scrutinize every entry in the ledger." },
+  { word: "Mitigate", pos: "verb", meaning: "Make less severe, serious, or painful", synonyms: ["alleviate", "reduce", "lessen"], antonyms: ["aggravate", "intensify"], sentence: "Planting trees can mitigate the effects of pollution." },
+  { word: "Alleviate", pos: "verb", meaning: "Make suffering or a problem less severe", synonyms: ["ease", "relieve", "soothe"], antonyms: ["worsen", "aggravate"], sentence: "The new policy aims to alleviate poverty." },
+  { word: "Endorse", pos: "verb", meaning: "Declare one's public approval or support", synonyms: ["support", "approve", "back"], antonyms: ["oppose", "veto"], sentence: "The committee endorsed the proposal unanimously." },
+  { word: "Procrastinate", pos: "verb", meaning: "Delay or postpone action", synonyms: ["delay", "stall", "dawdle"], antonyms: ["hasten", "expedite"], sentence: "Do not procrastinate before exams." },
+  { word: "Substantiate", pos: "verb", meaning: "Provide evidence to support or prove the truth of", synonyms: ["prove", "verify", "confirm"], antonyms: ["disprove", "refute"], sentence: "He could not substantiate his claims." },
+  { word: "Abhor", pos: "verb", meaning: "Regard with disgust and hatred", synonyms: ["detest", "loathe", "despise"], antonyms: ["love", "admire"], sentence: "She abhors any form of dishonesty." },
+  { word: "Augment", pos: "verb", meaning: "Make something greater by adding to it", synonyms: ["increase", "boost", "enhance"], antonyms: ["decrease", "reduce"], sentence: "He took a second job to augment his income." },
+  { word: "Cumbersome", pos: "adjective", meaning: "Large or heavy and therefore difficult to use", synonyms: ["unwieldy", "bulky", "awkward"], antonyms: ["convenient", "handy"], sentence: "The old procedure was slow and cumbersome." },
+  { word: "Deteriorate", pos: "verb", meaning: "Become progressively worse", synonyms: ["worsen", "decline", "degrade"], antonyms: ["improve", "recover"], sentence: "His health began to deteriorate rapidly." },
+  { word: "Exemplary", pos: "adjective", meaning: "Serving as a desirable model; very good", synonyms: ["model", "outstanding", "commendable"], antonyms: ["poor", "deplorable"], sentence: "She received an award for her exemplary service." },
+  { word: "Gregarious", pos: "adjective", meaning: "Fond of company; sociable", synonyms: ["sociable", "outgoing", "convivial"], antonyms: ["unsociable", "introverted"], sentence: "His gregarious nature made him popular." },
+  { word: "Indispensable", pos: "adjective", meaning: "Absolutely necessary", synonyms: ["essential", "vital", "crucial"], antonyms: ["dispensable", "unnecessary"], sentence: "Water is indispensable for life." },
+  { word: "Jubilant", pos: "adjective", meaning: "Feeling or expressing great happiness", synonyms: ["elated", "overjoyed", "thrilled"], antonyms: ["dejected", "downcast"], sentence: "The team was jubilant after the win." },
+];
+
+// Seed PIB-style current affairs items (illustrative, exam-relevant format). The
+// daily-update script appends freshly fetched PIB items keyed by date.
+export const NEWS_POOL = [
+  { title: "Cabinet approves new scheme to boost rural infrastructure", source: "PIB", category: "Schemes", summary: "The Union Cabinet approved a scheme aimed at strengthening rural roads and connectivity, targeting completion within a defined timeline to improve last-mile access.", examPoint: "Remember the implementing ministry and the financial outlay for objective questions." },
+  { title: "India and partner country sign MoU on renewable energy cooperation", source: "PIB", category: "International", summary: "A Memorandum of Understanding was signed to enhance collaboration in solar and green hydrogen technologies, supporting India's clean-energy targets.", examPoint: "Note the countries involved and the sector (renewable energy) for GA questions." },
+  { title: "Reserve Bank of India keeps policy repo rate unchanged", source: "RBI", category: "Economy", summary: "The Monetary Policy Committee decided to maintain the repo rate, citing inflation management and growth considerations.", examPoint: "Key terms: Repo Rate, MPC, CRR, SLR — frequently asked in Economy GA." },
+  { title: "Government launches digital portal for citizen grievances", source: "PIB", category: "Governance", summary: "A unified digital platform was launched to streamline citizen grievance redressal across departments with time-bound resolution.", examPoint: "Link to Digital India initiative; remember the launching ministry." },
+  { title: "ISRO announces successful satellite launch", source: "ISRO", category: "Science & Tech", summary: "The space agency successfully placed a communication/earth-observation satellite into orbit, strengthening India's space capabilities.", examPoint: "Note the launch vehicle (PSLV/GSLV) and satellite name." },
+  { title: "National award conferred for excellence in public administration", source: "PIB", category: "Awards", summary: "Civil servants and districts were recognised for innovative governance and effective implementation of flagship programmes.", examPoint: "Awards & honours are a recurring GA sub-topic." },
+  { title: "Health Ministry rolls out nationwide vaccination drive update", source: "PIB", category: "Health", summary: "An update on the national immunisation programme highlighted coverage milestones and new additions to the vaccine schedule.", examPoint: "Remember programme names like Mission Indradhanush." },
+  { title: "Finance Ministry releases monthly GST collection figures", source: "PIB", category: "Economy", summary: "Monthly Goods and Services Tax collections were reported, reflecting economic activity and compliance trends.", examPoint: "GST structure and collection trends are common in Economy GA." },
+];

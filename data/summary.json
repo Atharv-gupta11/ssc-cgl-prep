@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-05-29T07:24:00.064Z",
+  "fullMocks": 25,
+  "fullMockQuestions": 2500,
+  "sectionalTests": 50,
+  "sectionalQuestions": 1250,
+  "topics": 38,
+  "perTopic": 200,
+  "topicQuestions": 7600,
+  "topicUniqueQuestions": 2859,
+  "grandTotalQuestions": 11350
+}

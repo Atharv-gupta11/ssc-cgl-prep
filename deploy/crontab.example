@@ -1,0 +1,8 @@
+# Self-hosting cron (Linux server / VPS)
+# Edit your crontab:  crontab -e
+# Then paste the line below (adjust the path to where the app lives).
+#
+# Runs the daily update at 07:15 IST (01:45 UTC) with LIVE PIB fetch, then rebuilds
+# and restarts the app via pm2. Logs go to /var/log/sscprep-daily.log.
+
+45 1 * * * cd /opt/ssc-cgl-prep && FETCH_LIVE=1 BACKFILL_DAYS=1 /usr/bin/node scripts/daily-update.mjs && /usr/local/bin/npm run build && /usr/local/bin/pm2 restart ssc-cgl-prep >> /var/log/sscprep-daily.log 2>&1
