@@ -1,6 +1,9 @@
 import "./globals.css";
 import { AuthProvider } from "@/components/AuthProvider";
 import NavBar from "@/components/NavBar";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SSC CGL Prep — Mocks, Sectional & Topic Tests, Daily CA & Vocab",
@@ -11,14 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={inter.className}>
         <AuthProvider>
           <NavBar />
           <main className="container">{children}</main>
           <footer className="container footer">
             SSC CGL Prep • Built per the latest SSC CGL 2025 notification pattern (Tier-1: 100 Q, 200 marks, 60 min, 0.5 negative).
             Always cross-check facts & dates with the official site{" "}
-            <a href="https://ssc.gov.in" style={{ color: "var(--brand2)" }}>ssc.gov.in</a>.
+            <a href="https://ssc.gov.in" style={{ color: "var(--brand)" }}>ssc.gov.in</a>.
           </footer>
         </AuthProvider>
       </body>
