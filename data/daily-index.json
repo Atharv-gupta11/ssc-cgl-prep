@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-07-12",
+    "newsPdf": "/pdf/2026-07-12-news.html",
+    "vocabPdf": "/pdf/2026-07-12-vocab.html"
+  },
+  {
     "date": "2026-07-11",
     "newsPdf": "/pdf/2026-07-11-news.html",
     "vocabPdf": "/pdf/2026-07-11-vocab.html"
